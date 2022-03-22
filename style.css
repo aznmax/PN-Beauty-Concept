@@ -149,16 +149,21 @@ footer ul .titre {
 
     header ul {
         width: 100%;
-        height: 163px;
+        height: 135px;
     }
 
     header ul img {
-        width: 38%;
+        width: 32%;
     }
 
     .container {
         display: flex;
         margin-top: 150px;
+    }
+
+    footer .titre h1 {
+        display: block;
+        font-size: 5px;
     }
     
 
@@ -193,9 +198,10 @@ footer ul .titre {
 @media screen and (max-width: 414px) {
     body {
         margin: 0;
-        overflow-x: hidden;
+      
         
     }
+  
     
     
 
@@ -222,9 +228,12 @@ footer ul .titre {
 
     footer {
         position: absolute;
-        bottom: 224px;
+        bottom: 210px;
         height: 80px;
         width: 100%;
+    }
+    footer ul {
+        margin: 0;
     }
 
     footer ul .logo {
