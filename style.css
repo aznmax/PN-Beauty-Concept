@@ -76,13 +76,14 @@ footer ul .logo :nth-child(3) {
     body {
         margin: 0;
         padding: 0;
-        height: 100vh;
         overflow-x: hidden;
-     
+        
     }
+    
+    
 
     header ul {
-        width: 100%;
+        width: 90%;
     }
 
     .container {
@@ -97,7 +98,7 @@ footer ul .logo :nth-child(3) {
         position: absolute;
         bottom: 0px;
         height: 80px;
-        width: 100%;
+        width: 90%;
     }
 
     footer ul .logo {
@@ -113,9 +114,9 @@ footer ul .logo :nth-child(3) {
         display: none;
     }
     .container img:nth-child(2){
-        display: block;
+        display: flex;
         width: 100%;
-        margin-top: 30px;
+        margin-top: 50px;
     }
 
    
