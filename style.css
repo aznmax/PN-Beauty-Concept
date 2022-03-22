@@ -33,6 +33,10 @@ header ul li {
     width: 50%;
 }
 
+.container img:nth-child(2){
+    display: none;
+}
+
 /* Footer Part */
 
 footer ul {
@@ -72,8 +76,9 @@ footer ul .logo :nth-child(3) {
     body {
         margin: 0;
         padding: 0;
-        height: 0vh;
-        overflow-y: hidden;
+        height: 100vh;
+        overflow-x: hidden;
+     
     }
 
     header ul {
@@ -82,18 +87,36 @@ footer ul .logo :nth-child(3) {
 
     .container {
         display: flex;
-        justify-content: center;
         margin-top: 150px;
     }
     .container img {
-        width: 100%;
         margin-left: 0px;
     }
 
     footer {
         position: absolute;
-        bottom: 0;
-        height: 70px;
+        bottom: 0px;
+        height: 80px;
         width: 100%;
     }
+
+    footer ul .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer ul .logo img {
+        width: 42px;
+    }
+
+    .container img:nth-child(1){
+        display: none;
+    }
+    .container img:nth-child(2){
+        display: block;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+   
 }

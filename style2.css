@@ -117,4 +117,22 @@ footer ul .logo :nth-child(3){
         height: 70px;
         width: 100%;
     }
+
+    footer ul .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer ul .logo img {
+        width: 42px;
+    }
+
+    .container img:nth-child(1){
+        display: none;
+    }
+    .container img:nth-child(2){
+        display: block;
+        width: 100%;
+        margin-top: 30px;
+    }
 }
