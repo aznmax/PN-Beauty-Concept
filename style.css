@@ -76,6 +76,16 @@ footer ul .logo :nth-child(3) {
     margin-left: 40px;
 }
 
+footer ul .titre {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Roboto";
+}
+
 /* Responsive Mobile */
 
 @media screen and (max-width:500px){
