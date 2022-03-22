@@ -213,12 +213,15 @@ footer ul .logo :nth-child(3) {
     }
 
     header ul {
-        width: 90%;
-        height: 145px;
+        width: 100%;
+        height: 110px;
     }
 
     header ul img {
-        width: 35%;
+        width: 27%;
+    }
+    header ul li {
+        line-height: 110px;
     }
 
     iframe {
@@ -238,9 +241,9 @@ footer ul .logo :nth-child(3) {
     }
     footer {
         position: absolute;
-        bottom: -150px;
+        bottom: 80px;
         height: 70px;
-        width: 90%;
+        width: 100%;
     }
 
     footer ul .logo {

@@ -193,7 +193,6 @@ footer ul .titre {
 @media screen and (max-width: 414px) {
     body {
         margin: 0;
-        padding: 0;
         height: 0vh;
         overflow-x: hidden;
         
@@ -202,6 +201,7 @@ footer ul .titre {
     
 
     header ul {
+        margin: 0;
         width: 100%;
         height: 110px;
     }
@@ -223,7 +223,7 @@ footer ul .titre {
 
     footer {
         position: absolute;
-        bottom: 300px;
+        bottom: 224px;
         height: 80px;
         width: 100%;
     }
