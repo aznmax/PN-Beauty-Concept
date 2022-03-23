@@ -336,6 +336,10 @@ footer ul .titre {
 
     /* Container part */
 
+    .container{
+        margin-top: 320px;
+    }
+
     .container .circle {
         margin-top: 80px;
     }
