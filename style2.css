@@ -226,3 +226,44 @@ footer ul .logo :nth-child(3) {
     }
 }
 
+@media screen and (max-width:390px){
+
+    /* Header part */
+
+    header ul {
+        height: 109px;
+        width: 100%;
+    }
+    header ul li {
+        line-height: 100px;
+    }
+       /* Footer part */
+       footer{
+        position: absolute;
+        bottom: 0px;
+        height: 70px;
+        width: 100%;
+    }
+
+    footer ul {
+        margin: 0;
+        padding: 0;
+    }
+  
+    footer ul .logo {
+        display: flex;
+        justify-content: flex-start;
+        margin-left:20px;
+    }
+    footer ul .logo img {
+        width: 42px;
+    }
+
+    footer ul .titre {
+        font-size: 17px;
+        line-height: 42px;
+        display: block;
+      
+}
+
+}
