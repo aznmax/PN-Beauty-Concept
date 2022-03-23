@@ -137,9 +137,8 @@ footer ul .titre {
 
     /* Body part */
     body{
-        overflow-x: hidden;
         margin: 0;
-        height: 130vh;
+        height: 100vh;
     }
 
 
@@ -191,7 +190,7 @@ footer ul .titre {
     footer{
         position: absolute;
         width: 100%;
-        bottom: -90px;
+        bottom: -380px;
     }
 
     footer ul .logo {
@@ -251,7 +250,7 @@ footer ul {
 footer ul .logo {
     display: flex;
     justify-content: flex-start;
-    margin-left: 20px;
+    margin-left: 18px;
 }
 footer ul .logo img {
     width: 42px;
