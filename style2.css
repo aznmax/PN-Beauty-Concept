@@ -21,7 +21,8 @@ header ul a {
 
 header ul img {
     position: absolute;
-    width: 200px;
+    width: 20%;
+    height: 21.3%;
     left: 0px;
 }
 
@@ -31,28 +32,34 @@ header ul li {
     list-style-type: none;
     line-height: 200px;
     font-size: 30px;
-    margin-left: 60px;
+    margin-left: 35px;
     font-family: "hurricane";
 }
 
-iframe {
-    margin-top: 50px;
-    margin-left: 130px;
-}
 
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     margin-top: 40px;
+    
+}
+iframe {
+    margin-top: 80px;
+    margin-left: 125px;
 }
 
 .container h1 {
-    font-family: "Roboto";
-    color: black;
-    font-size: 40px;
-    margin-top: 150px;
-    margin-left: 50px;
+    position: absolute;
+    top: 260px;
+    right: 200px;
+    width: 700px;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
+    margin-top: 200px;
+    font-family: "hurricane"";
 }
 
 /* Footer Part */
@@ -111,19 +118,23 @@ footer ul .logo :nth-child(3) {
         padding: 0;
         height: 90px;
         width: 100%;
+        margin-left: 35px;
     }
     
     header ul li {
         line-height: 90px;
     
     }
-    header ul img {
-        width: 21%;
+    header ul  img {
+        width: 35%;
+        height: 9.8%;
+        margin-left: 0px;
     }
 
     iframe {
         width: 80%;
         margin-left: 0px;
+        margin-top: 30px;
     }
 
     .container {
@@ -133,14 +144,15 @@ footer ul .logo :nth-child(3) {
     }
 
     .container h1 {
-        margin-top: 25px;
-        margin-left: 60px;
+        margin-top: 400px;
+        margin-right:-150px;
         white-space: wrap;
         font-size: 25px;
+        width: 200px;
     }
     footer {
         position: absolute;
-        bottom: 105px;
+        bottom: 30px;
         height: 70px;
         width: 100%;
     }
@@ -190,17 +202,39 @@ footer ul .logo :nth-child(3) {
     padding: 0;
     height: 87px;
     width: 100%;
+    margin-left: 35px;
 }
+
 
 header ul li {
     line-height: 90px;
 
 }
 header ul img {
-    width: 21%;
+  
+        width: 35%;
+        height: 9.8%;
+        margin-left: 0px;
+    }
+
+
+
+/* Container */
+
+.container iframe {
+    margin-top: 20px;
+}
+
+.container h1 {
+    margin-top: 430px;
 }
 
 /* Footer  Part*/
+
+footer{
+    position: absolute;
+    bottom: -90px;
+}
 
 footer ul {
     margin: 0;
@@ -235,9 +269,18 @@ footer ul .titre {
     
     header ul li {
         line-height: 90px;
+        margin-left: 35px;
     
     }
+
+    
     header ul img {
-        width: 21%;
+            width: 35%;
+            height: 9.8%;
+            margin-left: 0px;
+        
+    
     }
+
+   
 }

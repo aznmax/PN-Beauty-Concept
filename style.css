@@ -14,7 +14,19 @@ header ul {
     text-align: center;
     font-size: 30px;
     font-family: "hurricane";
-    position: relative;
+}
+
+header ul .containerHeader {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+header ul .containerHeader img {
+    position: absolute;
+    left: 0;
+    width: 20%;
+    height: 21.3%;
 }
 
 header ul a {
@@ -22,9 +34,7 @@ header ul a {
 }
 
 header ul img {
-    position: absolute;
     width: 200px;
-    left: 0px;
 }
 
 header ul li {
@@ -32,42 +42,51 @@ header ul li {
     color: #fff;
     list-style-type: none;
     line-height: 200px;
-    margin-left: 60px;
+    margin-left: 35px;
 }
 
 /* Container Section Part */
 
 .container {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 70px;
-   
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
+    margin-top: 200px;
 }
-.container img {
+
+/* Picture Section */
+.container .circle img {
     width: 260px;
     height: 260px;
     object-fit: cover;
-    margin-left:120px;
-    border-radius:50%;
-    
-}
-
-.container .circle {
-    margin-left: 50px;
-}
-
-.container .circle img {
+    margin-left: 120px;
+    border-radius: 50%;
     float: left;
     shape-outside: circle(50%);
     margin: 0px 25px 25px 0px;
 }
 
-.boutonPrestation{
+/* Link Section */
+
+.container  a {
+    text-decoration: none;
+}
+
+/* Button Section */
+
+.container .boutonPrestation {
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-decoration: none;
+
 }
-.boutonPrestation button {
+
+.container button {
     font-family: "hurricane";
     font-size: 30px;
     width: 150px;
@@ -82,8 +101,7 @@ header ul li {
     cursor: pointer;
 }
 
-
-.container img:nth-child(2){
+.container img:nth-child(2) {
     display: none;
 }
 
@@ -130,17 +148,14 @@ footer ul .titre {
     font-family: "Roboto";
 }
 
-
 /* Responsive Design 428* 926*/
 
-@media screen and (max-width: 428px){
-
+@media screen and (max-width: 428px) {
     /* Body part */
-    body{
+    body {
         margin: 0;
         height: 100vh;
     }
-
 
     /* Header Part */
 
@@ -148,27 +163,35 @@ footer ul .titre {
         margin: 0;
         padding: 0;
         height: 90px;
-        width: 100%;
+        margin-left: 35px;
+     
     }
-    
+
     header ul li {
         line-height: 90px;
-
-    }
-    header ul img {
-        width: 21%;
+        font-size: 30px;
     }
 
+ 
+
+    header ul .containerHeader img {
+        width: 35%;
+        height: 9.8%;
+        margin-left: 0px;
+    }
 
     /* Section Part */
 
-    .container .circle   {
+    .container {
+        width: 100%;
+        margin-top: 300px;
+    }
+    .container .circle {
         display: flex;
         flex-direction: column;
-       justify-content: center;
-       align-items: center;
+        justify-content: center;
+        align-items: center;
         margin-right: 45px;
-
     }
 
     .container .circle p {
@@ -176,18 +199,15 @@ footer ul .titre {
     }
     /* Button part */
 
-    .boutonPrestation{
+    .container .boutonPrestation {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 30px;
-        
     }
 
-   
-
     /* Footer */
-    footer{
+    footer {
         position: absolute;
         width: 100%;
         bottom: -380px;
@@ -206,130 +226,151 @@ footer ul .titre {
         font-size: 17px;
         line-height: 42px;
         display: block;
-      
     }
-
-
 }
-@media screen and (max-width:414px){
-
-
-    body{
+@media screen and (max-width: 414px) {
+    body {
         margin: 0;
         padding: 0;
     }
- /* Header Part */
+    /* Header Part */
 
- header ul {
-    margin: 0;
-    padding: 0;
-    height: 87px;
-    width: 100%;
+    header ul {
+        margin: 0;
+        padding: 0;
+        height: 87px;
+        width: 100%;
+        margin-left: 35px;
+    }
+
+    header ul .containerHeader img {
+        width: 35%;
+        height: 9.8%;
+        margin-left: 0px;
+    }
+
+
+    header ul li {
+        line-height: 90px;
+    }
+    header ul img {
+        width: 21%;
+    }
+
+    /* Texte */
+
+    .container .circle{
+        margin: auto;
+    }
+    .container .circle p {
+        font-size: 15px;
+        font-family: "Roboto";
+    }
+
+    /* Button responsive */
+
+    .boutonPrestation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Footer  Part*/
+    footer {
+        position: absolute;
+        width: 100%;
+        height: 0px;
+        bottom: -130px;
+    }
+
+    footer ul {
+        margin: 0;
+    }
+
+    footer ul .logo {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 0px;
+    }
+    footer ul .logo img {
+        width: 42px;
+    }
+
+    footer ul .titre {
+        font-size: 17px;
+        line-height: 42px;
+        display: block;
+    }
 }
 
-header ul li {
-    line-height: 90px;
-
-}
-header ul img {
-    width: 21%;
-}
-
-/* Texte */
-.container .circle p {
-    font-size: 15px;
-    font-family: "Roboto";
-}
-
-/* Button responsive */
-
-.boutonPrestation{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
-}
-
-/* Footer  Part*/
-footer{
-    position: absolute;
-    width: 100%;
-    height: 0px;
-    bottom:-70px;
-}
-
-footer ul {
-    margin: 0;
-  
-}
-
-footer ul .logo {
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 0px;
-}
-footer ul .logo img {
-    width: 42px;
-}
-
-footer ul .titre {
-    font-size: 17px;
-    line-height: 42px;
-    display: block;
-  
-}
-
-}
-
-@media screen and (max-width:390px){
-    
-    body{
+@media screen and (max-width: 390px) {
+    body {
         margin: 0;
         padding: 0;
     }
- /* Header Part */
+    /* Header Part */
 
- header ul {
-    margin: 0;
-    padding: 0;
-    height: 82px;
-    width: 100%;
-}
+    header ul {
+        margin: 0;
+        padding: 0;
+        height: 82px;
+        width: 100%;
+        margin-left: 35px;
+    }
 
-header ul li {
-    line-height: 90px;
+    header ul .containerHeader img {
+        width: 35%;
+        height: 9.8%;
+        margin-left: 0px;
+    }
 
-}
-header ul img {
-    width: 21%;
-}
 
-/* Footer  Part*/
-footer{
-    position: absolute;
-    width: 100%;
-    bottom: -240px;
-}
+    header ul li {
+        line-height: 90px;
+    }
+    header ul img {
+        width: 21%;
+    }
 
-footer ul {
-    margin: 0;
-    padding: 0;
-}
+    /* Container part */
+    
 
-footer ul .logo {
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 20px;
-}
-footer ul .logo img {
-    width: 42px;
-}
+    .container .circle{
+        margin-top: 80px;
+    }
 
-footer ul .titre {
-    font-size: 17px;
-    line-height: 42px;
-    display: block;
-  
-}
+    .container .circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    /* Footer  Part*/
+    footer {
+        position: absolute;
+        width: 100%;
+        bottom: -240px;
+    }
+
+
+    footer ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    footer ul .logo {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 20px;
+    }
+    footer ul .logo img {
+        width: 42px;
+    }
+
+    footer ul .titre {
+        font-size: 17px;
+        line-height: 42px;
+        display: block;
+    }
 }
