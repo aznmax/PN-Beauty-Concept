@@ -148,7 +148,7 @@ footer ul .titre {
         line-height: 100px;
     }
     header ul img {
-        width: 28%;
+        width: 26%;
     }
     
 
@@ -175,7 +175,7 @@ footer ul .titre {
 
     footer{
         position: absolute;
-        bottom: -20px;
+        bottom: -160px;
         height: 70px;
         width: 100%;
     }
