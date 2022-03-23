@@ -118,18 +118,18 @@ footer ul .logo :nth-child(3) {
         padding: 0;
         height: 90px;
         width: 100%;
-        margin-left: 35px;
     }
     
     header ul li {
         line-height: 90px;
+        margin-right: -20px;
     
     }
     header ul  img {
        
             position: absolute;
             width: 35%;
-            height: 11.5%;
+            height: 10%;
             margin-left: 0px;
         
     }
