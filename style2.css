@@ -126,9 +126,12 @@ footer ul .logo :nth-child(3) {
     
     }
     header ul  img {
-        width: 35%;
-        height: 9.8%;
-        margin-left: 0px;
+       
+            position: absolute;
+            width: 35%;
+            height: 11.5%;
+            margin-left: 0px;
+        
     }
 
     iframe {
@@ -144,15 +147,15 @@ footer ul .logo :nth-child(3) {
     }
 
     .container h1 {
-        margin-top: 400px;
-        margin-right:-150px;
+        margin-top: 420px;
+        margin-right:-140px;
         white-space: wrap;
         font-size: 25px;
         width: 200px;
     }
     footer {
         position: absolute;
-        bottom: 30px;
+        bottom: -160px;
         height: 70px;
         width: 100%;
     }
@@ -260,27 +263,44 @@ footer ul .titre {
 }
 
 @media screen and (max-width:390px){
+
+    /* Header part */
+   
+    
     header ul {
         margin: 0;
         padding: 0;
-        height: 82px;
+        height: 90px;
         width: 100%;
+        
     }
     
     header ul li {
+        display: inline-block;
+        margin-right: -20px;
         line-height: 90px;
-        margin-left: 35px;
     
     }
 
     
     header ul img {
             width: 35%;
-            height: 9.8%;
+            height: 10.7%;
             margin-left: 0px;
         
     
     }
+
+    /* Container Part */
+
+.container iframe {
+    margin-top: 20px;
+}
+
+.container h1 {
+    margin-top: 390px;
+    margin-right: -150px;
+}
 
    
 }
