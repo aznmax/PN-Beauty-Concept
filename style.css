@@ -14,6 +14,7 @@ header ul {
     text-align: center;
     font-size: 30px;
     font-family: "hurricane";
+    position: relative;
 }
 
 header ul a {
@@ -141,7 +142,7 @@ footer ul .titre {
     }
     header ul {
         height: 120px;
-        width: 100%;
+        width:100%;
     }
     header ul li {
         line-height: 100px;
@@ -204,7 +205,7 @@ footer ul .titre {
      
     }
     header ul {
-        height: 116px;
+        height: 125px;
         width: 100%;
     }
     header ul li {
@@ -219,6 +220,12 @@ footer ul .titre {
         margin: 0;
         font-size: 16px;
        
+    }
+
+     /* Button Prestation */
+
+     .boutonPrestation button {
+        margin-top: 40px;
     }
 
     /* Footer part */
@@ -299,3 +306,46 @@ footer ul .titre {
               
         }
 }
+
+@media screen and (max-width:375px){
+    
+        /* Header part */
+        body{
+            margin: 0;
+            padding: 0;
+         
+        }
+        header ul {
+            height: 115px;
+            width: 100%;
+        }
+        header ul li {
+            line-height: 100px;
+        }
+
+        header ul img {
+            width: 28%;
+        }
+      
+
+            /* Footer part */
+            footer{
+                position: absolute;
+                bottom: -360px;
+               
+            }
+
+            footer ul {
+                margin: 0;
+                padding: 0;
+            }
+
+            footer ul .titre {
+                font-size: 15px;
+                display: block;
+              
+        }
+        
+         
+        }
+
