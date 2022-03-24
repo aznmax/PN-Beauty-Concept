@@ -293,7 +293,8 @@ footer ul .titre {
         margin-right: -20px;
     }
     header ul img {
-        width: 21%;
+        width: 60px;
+        margin-top: 30px;
     }
 
     /* Container */
