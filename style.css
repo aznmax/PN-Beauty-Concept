@@ -40,12 +40,17 @@ header ul a {
 }
 
 header ul img {
-    width: 200px;
+    position: absolute;
+    left: 8px;
+    top: 5px;
+    width: 60px;
 }
 
 header ul li {
     display: inline-block;
-    color: #fff;
+    color: #00309a;
+    font-weight: bold;
+    font-size: 35px;
     list-style-type: none;
     line-height: 200px;
     margin-left: 35px;
@@ -63,6 +68,20 @@ header ul li {
     border-radius: 10px;
     box-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
     margin-top: 200px;
+}
+
+
+
+header ul  .fleurdeLys {
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    width: 60px;
+    
+}
+
+header ul .fleurdeLys img {
+    width: 60px;
 }
 
 /* Picture Section */
@@ -103,7 +122,8 @@ header ul li {
     border-radius: 5px;
     margin-left: 60px;
     background: #AD956B;
-    color: #fff;
+    color: #00309a;
+    font-weight: bold;
     outline: none;
     border: none;
     cursor: pointer;
