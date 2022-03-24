@@ -159,6 +159,7 @@ footer ul .titre {
 
     header ul {
         height: 90px;
+        width: 100%;
     }
     
     header ul .containerHeader  {
@@ -180,7 +181,7 @@ footer ul .titre {
     header ul .containerHeader img {
         position: absolute;
         width: 35%;
-        height: 9.7%;
+        height: 11.5%;
         margin-left: 0px;
     }
 
