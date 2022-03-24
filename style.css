@@ -8,12 +8,17 @@ body {
 /* Header Part */
 
 header ul {
-    background: #4e35ff;
+    background: #AD956B;
     margin: 0;
-    height: 200px;
+    height: 100px;
     text-align: center;
     font-size: 30px;
     font-family: "hurricane";
+}
+
+header ul .containerHeader li {
+
+    line-height: 120px
 }
 
 header ul .containerHeader {
@@ -26,7 +31,8 @@ header ul .containerHeader img {
     position: absolute;
     left: 0;
     width: 20%;
-    height: 21.3%;
+    height: 10.7%;
+    object-fit: cover;
 }
 
 header ul a {
@@ -96,7 +102,7 @@ header ul li {
     padding: 10px 15px;
     border-radius: 5px;
     margin-left: 60px;
-    background: #4e35ff;
+    background: #AD956B;
     color: #fff;
     outline: none;
     border: none;
@@ -118,7 +124,7 @@ footer ul {
     margin: 0;
     width: 100%;
     height: 90px;
-    background: #4e35ff;
+    background: #AD956B;
 }
 
 footer ul .logo img {
