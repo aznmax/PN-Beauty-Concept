@@ -253,7 +253,7 @@ footer ul .titre {
         margin-left: 0px;
     }
 
-    header ul li {
+    header ul .containerHeader li {
         line-height: 90px;
         margin-right: -20px;
     }
