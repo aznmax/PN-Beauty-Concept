@@ -260,7 +260,11 @@ footer ul .titre {
         width: 21%;
     }
 
-    /* Texte */
+    /* Container */
+
+    .container{
+        margin-top: 300px;
+    }
 
     .container .circle {
         margin: auto;
@@ -337,7 +341,7 @@ footer ul .titre {
     /* Container part */
 
     .container{
-        margin-top: 320px;
+        margin-top: 300px;
     }
 
     .container .circle {
