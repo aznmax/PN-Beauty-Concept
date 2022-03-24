@@ -9,9 +9,9 @@ body {
 /* Header Part */
 
 header ul {
-    background: #4e35ff;
+    background: #AD956B;
     margin: 0;
-    height: 200px;
+    height: 100px;
     text-align: center;
 }
 
@@ -22,7 +22,8 @@ header ul a {
 header ul img {
     position: absolute;
     width: 20%;
-    height: 21.3%;
+    height: 10.7%;
+    object-fit: cover;
     left: 0px;
 }
 
@@ -30,7 +31,7 @@ header ul li {
     display: inline-block;
     color: #fff;
     list-style-type: none;
-    line-height: 200px;
+    line-height: 100px;
     font-size: 30px;
     margin-left: 35px;
     font-family: "hurricane";
@@ -51,7 +52,7 @@ iframe {
 
 .container h1 {
     position: absolute;
-    top: 260px;
+    top: 120px;
     right: 200px;
     width: 700px;
     text-align: center;
@@ -70,7 +71,7 @@ footer ul {
     margin: 0;
     width: 100%;
     height: 90px;
-    background: #4e35ff;
+    background:#AD956B ;
 }
 
 footer ul .titre {
