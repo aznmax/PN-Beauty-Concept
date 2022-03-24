@@ -129,7 +129,7 @@ footer ul .logo :nth-child(3) {
        
             position: absolute;
             width: 35%;
-            height: 10.2%;
+            height: 11%;
             margin-left: 0px;
         
     }
@@ -155,7 +155,7 @@ footer ul .logo :nth-child(3) {
     }
     footer {
         position: absolute;
-        bottom: -160px;
+        bottom: -200px;
         height: 70px;
         width: 100%;
     }
