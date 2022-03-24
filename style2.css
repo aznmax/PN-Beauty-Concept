@@ -21,15 +21,26 @@ header ul a {
 
 header ul img {
     position: absolute;
-    width: 20%;
-    height: 10.7%;
-    object-fit: cover;
-    left: 0px;
+    left: 8px;
+    top: 5px;
+    width: 60px;
+}
+
+header ul .fleurdeLys  {
+    position: absolute;
+   right: 80px;
+   top: 0;
+   
+}
+
+header ul .fleurdeLys img {
+    width: 60px;
 }
 
 header ul li {
     display: inline-block;
-    color: #fff;
+    color: #00309a;
+    font-weight: bold;
     list-style-type: none;
     line-height: 100px;
     font-size: 30px;
@@ -57,6 +68,7 @@ iframe {
     width: 700px;
     text-align: center;
     padding: 50px;
+    color: #00309a;
     border-radius: 10px;
     box-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
     margin-top: 200px;
@@ -79,7 +91,8 @@ footer ul .titre {
     align-items: center;
     margin-left: 20px;
     margin-top: 20px;
-    color: #fff;
+    color: #00309a;
+    font-weight: bold;
     font-size: 25px;
     font-family: "Roboto";
 }

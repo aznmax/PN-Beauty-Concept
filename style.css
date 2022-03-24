@@ -362,18 +362,50 @@ footer ul .titre {
         margin-left: 0px;
     }
 
+     
+
     header ul .containerHeader img {
         width: 35%;
         height: 9.8%;
         margin-left: 0px;
     }
 
+  
+
     header ul li {
         line-height: 90px;
+        margin-left:-160px;
     }
+
+    header ul  li {
+        font-weight: bold;
+    }
+
+    header ul .containerHeader :nth-child(1){
+        margin-left: 7px;
+    }
+
+
+    header ul .containerHeader :nth-child(2){
+        margin-left: 30px;
+    }
+
+   
+   
+
+   
     header ul img {
-        width: 21%;
+        width: 13%;
     }
+
+    header ul .fleurdeLys img {
+        position: absolute;
+        top: 0;
+        object-fit: cover;
+        width: 50px;
+    }
+
+
 
     /* Container part */
 
