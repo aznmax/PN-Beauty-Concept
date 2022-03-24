@@ -82,10 +82,13 @@ header ul li {
 .container .boutonPrestation {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
     text-decoration: none;
 }
 
-.container button {
+
+
+.container .boutonPrestation button {
     font-family: "hurricane";
     font-size: 30px;
     width: 150px;
@@ -99,6 +102,9 @@ header ul li {
     border: none;
     cursor: pointer;
 }
+
+
+
 
 .container img:nth-child(2) {
     display: none;
@@ -273,6 +279,7 @@ footer ul .titre {
         margin: auto;
     }
     .container .circle p {
+        margin-left: 12px;
         font-size: 15px;
         font-family: "Roboto";
     }
