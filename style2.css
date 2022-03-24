@@ -219,7 +219,6 @@ footer ul .logo :nth-child(3) {
     padding: 0;
     height: 87px;
     width: 100%;
-    margin-left: 35px;
 }
 
 
@@ -239,11 +238,11 @@ header ul img {
 /* Container */
 
 .container iframe {
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .container h1 {
-    margin-top: 430px;
+    margin-top: 530px;
 }
 
 /* Footer  Part*/
