@@ -244,7 +244,7 @@ footer ul .titre {
         padding: 0;
         height: 87px;
         width: 100%;
-        margin-left: 35px;
+        
     }
 
     header ul .containerHeader img {
@@ -255,6 +255,7 @@ footer ul .titre {
 
     header ul li {
         line-height: 90px;
+        margin-right: -20px;
     }
     header ul img {
         width: 21%;
