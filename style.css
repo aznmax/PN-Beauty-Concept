@@ -194,6 +194,8 @@ footer ul .titre {
         height: 80px;
         width: 100%;
     }
+
+   
     
     header ul .containerHeader  {
         margin: 0;
@@ -206,10 +208,12 @@ footer ul .titre {
     
     header  ul .containerHeader  li {
         display: inline-block;
-        margin-right:0px;
+        margin-right:40px;
         line-height: 90px;
         font-size: 30px;
     }
+
+  
 
     header ul .containerHeader img {
         position: absolute;
